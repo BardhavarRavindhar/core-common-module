@@ -1,0 +1,83 @@
+# Node.js
+server.js
+node_modules/
+*.log*
+# Logs
+logs/
+*.log
+logs/**/*.log
+
+# Environment variables
+.env 
+.env.*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build and output directories
+dist/
+build/
+tmp/
+temp/
+out/
+
+# Coverage reports
+coverage/
+*.lcov
+coverage-final.json
+# Cache
+.cache/
+.cache-loader/
+npm-cache/
+yarn-cache/
+
+# Tests
+jest-html-reporters-*.html
+test-report/
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# PM2 logs and ecosystem files
+pm2-logs/
+ecosystem.config.js
+
+# Docker
+.dockerignore
+Dockerfile
+Dockerfile.*
+docker-compose.yml
+docker-compose.*.yml
+
+# Kubernetes manifests
+*.yaml
+
+# AWS CDK
+cdk.out/
+
+# Firebase
+.firebase/
+firebaserc
+
+# Secrets
+*.key
+*.pem
+
+# Lint/Formatter configs (optional, based on your project needs)
+.eslintcache
+.prettierignore
+.prettiercache
+
+# Optional: Remove if not applicable
+public/
+package-lock.json

@@ -1,0 +1,45 @@
+{
+  "name": "common-modules",
+  "version": "1.0.0",
+  "description": "Core modules to built platform system",
+  "homepage": "https://github.com/BardhavarRavindhar/core-common-modules#readme",
+  "bugs": {
+    "url": "https://github.com/BardhavarRavindhar/core-common-modules/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BardhavarRavindhar/core-common-modules.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --delay 2s server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.774.0",
+    "bull": "^4.16.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "env-var": "^7.5.0",
+    "fastest-validator": "^1.19.0",
+    "got": "^14.4.6",
+    "ioredis": "^5.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "luxon": "^3.5.0",
+    "mongoose": "^8.10.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "object-hash": "^3.0.0",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "pino-roll": "^3.0.0",
+    "qrcode": "^1.5.4",
+    "rate-limiter-flexible": "^5.0.5",
+    "twilio": "^5.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
